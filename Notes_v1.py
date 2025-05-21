@@ -2,10 +2,6 @@ from PyQt5 import QtCore, QtGui, QtWidgets, uic
 import sys
 from PyQt5.QtWidgets import QFileDialog
 
-from PyQt5 import QtCore, QtGui, QtWidgets, uic
-import sys
-from PyQt5.QtWidgets import QFileDialog
-
 class MyWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(MyWindow, self).__init__()
